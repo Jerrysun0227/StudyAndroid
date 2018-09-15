@@ -1,4 +1,4 @@
-package com.github.jerrysun.studyandroid.views.followup;
+package com.jerrysun.studyandroid.views.followup;
 
 
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.graphics.Rect;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import com.github.jerrysun.studyandroid.R;
+import com.jerrysun.studyandroid.R;
 
 /**
  * @Title

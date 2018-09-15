@@ -1,4 +1,4 @@
-package com.github.jerrysun.studyandroid
+package com.jerrysun.studyandroid
 
 import org.junit.Test
 

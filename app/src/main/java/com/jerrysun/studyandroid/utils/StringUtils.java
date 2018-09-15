@@ -1,4 +1,4 @@
-package com.github.jerrysun.studyandroid.utils;
+package com.jerrysun.studyandroid.utils;
 
 import android.text.TextUtils;
 

@@ -1,4 +1,4 @@
-package com.github.jerrysun.studyandroid.views.followup;
+package com.jerrysun.studyandroid.views.followup;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-import com.github.jerrysun.studyandroid.R;
-import com.github.jerrysun.studyandroid.utils.StringUtils;
-import com.github.jerrysun.studyandroid.utils.UIHelper;
+import com.jerrysun.studyandroid.R;
+import com.jerrysun.studyandroid.utils.StringUtils;
+import com.jerrysun.studyandroid.utils.UIHelper;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

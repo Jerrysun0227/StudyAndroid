@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="CategoryButton">
+        <item name="android:layout_width">@dimen/category_button_width</item>
+        <item name="android:layout_height">@dimen/category_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/font_12sp</item>
+    </style>
+
 </resources>

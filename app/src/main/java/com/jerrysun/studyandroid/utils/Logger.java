@@ -1,7 +1,7 @@
-package com.github.jerrysun.studyandroid.utils;
+package com.jerrysun.studyandroid.utils;
 
 import android.util.Log;
-import com.github.jerrysun.studyandroid.BuildConfig;
+import com.jerrysun.studyandroid.BuildConfig;
 
 /**
  * @Title   Logger.
