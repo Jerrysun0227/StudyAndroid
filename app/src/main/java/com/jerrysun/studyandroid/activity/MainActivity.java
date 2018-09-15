@@ -31,5 +31,8 @@ public class MainActivity extends AppCompatActivity {
         // Touch事件传递
         this.findViewById(R.id.btn_touch_event).setOnClickListener(v ->
             startActivity(new Intent(MainActivity.this, TouchEventActivity.class)));
+        // Handler机制
+        this.findViewById(R.id.btn_handler).setOnClickListener(v ->
+            startActivity(new Intent(MainActivity.this, HandlerTestActivity.class)));
     }
 }

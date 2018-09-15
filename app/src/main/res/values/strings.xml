@@ -2,7 +2,11 @@
     <string name="app_name">StudyAndroid</string>
 
     <string name="follow_up_view">模仿即刻APP点赞TextView</string>
-    <string name="follow_up_button_label">Test</string>
+    <string name="follow_up_button_label">测试</string>
 
     <string name="touche_event_test">Touch事件传递</string>
+
+    <string name="handler_test">Handler机制</string>
+    <string name="handler_btn_send_msg">发送即时消息</string>
+    <string name="handler_btn_send_msg_delay">发送延迟消息</string>
 </resources>

@@ -7,4 +7,36 @@
     android:layout_height="match_parent"
     tools:context=".activity.HandlerTestActivity">
 
+    <TextView
+        android:id="@+id/tv_handler_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/spec_20dp"
+        android:layout_marginEnd="@dimen/spec_20dp"
+        android:layout_marginTop="@dimen/spec_20dp"
+        android:textSize="@dimen/font_16sp"
+        android:textColor="@color/color_black"/>
+
+    <Button
+        android:id="@+id/btn_send_message"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="@dimen/category_button_height"
+        app:layout_constraintTop_toBottomOf="@id/tv_handler_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/spec_10dp"
+        android:layout_marginTop="@dimen/spec_10dp"
+        android:text="@string/handler_btn_send_msg"/>
+
+    <Button
+        android:id="@+id/btn_send_message_delay"
+        android:layout_width="@dimen/category_button_width"
+        android:layout_height="@dimen/category_button_height"
+        app:layout_constraintTop_toTopOf="@id/btn_send_message"
+        app:layout_constraintLeft_toRightOf="@id/btn_send_message"
+        android:layout_marginStart="@dimen/spec_10dp"
+        android:text="@string/handler_btn_send_msg_delay"/>
+
 </android.support.constraint.ConstraintLayout>
